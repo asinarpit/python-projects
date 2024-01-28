@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .strand {
+            width: 2px;
+            height: 300px;
+            background-color: #666;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .strand.a {
+            left: 25%;
+        }
+
+        .strand.b {
+            left: 75%;
+        }
+
+        .strand::before,
+        .strand::after {
+            content: "";
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #666;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .strand::before {
+            left: -10px;
+        }
+
+        .strand::after {
+            left: 10px;
+        }
+
+        .base-pair {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .base-pair.a {
+            background-color: #f00;
+            left: 12.5%;
+        }
+
+        .base-pair.b {
+            background-color: #00f;
+            left: 37.5%;
+        }
+
+        .base-pair.c {
+            background-color: #0f0;
+            left: 62.5%;
+        }
+
+        .base-pair.d {
+            background-color: #ff0;
+            left: 87.5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="strand a"></div>
+    <div class="strand b"></div>
+    <div class="base-pair a"></div>
+    <div class="base-pair b"></div>
+    <div class="base-pair c"></div>
+    <div class="base-pair d"></div>
+</body>
+
+</html>

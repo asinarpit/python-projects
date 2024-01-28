@@ -1,0 +1,22 @@
+{
+    "params": {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/bitarpit",
+        "prod_uri": "mysql://root:@localhost/bitarpit",
+        "fb_url": "https://facebook.com/bitarpit",
+        "tw_url": "https://twitter.com/bitarpit",
+        "gh_url": "https://github.com/bitarpit",
+        "blog_name": "BitArpit",
+        "tag_line": "A Website by Arpit Singh",
+        "gmail_user": "asin060902@gmail.com",
+        "gmail_password": "tspkdlekdggmzxbl",
+        "about_txt": "Hi I am Arpit Singh and I am a Programmer.",
+        "no_of_posts": 2,
+        "login_image": "login.svg",
+        "admin_user": "Arpit",
+        "admin_password": "ArpitS",
+        "upload_location": "C:\\Users\\asin0\\OneDrive\\Desktop\\funCodes\\WebDevFlask"
+
+        
+    }
+}
